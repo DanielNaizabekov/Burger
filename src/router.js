@@ -18,7 +18,7 @@ export default new Router ({
          component: () => import('./components/Contacts.vue')
       },
       {
-         path: '/form/:id',
+         path: '/form',
          name: 'form',
          component: () => import('./components/Form.vue')
       }

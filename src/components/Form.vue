@@ -19,9 +19,7 @@
 
             <button class="form__btn">Submit</button>
          </form>
-
-         {{ $route.params.id }}
-
+         
          <Popup
             :title="getUserData.userData.sent ? 'Thanks for your burger order': 'Error'"
             :class="{popupActive: getUserData.userData.submit}"
